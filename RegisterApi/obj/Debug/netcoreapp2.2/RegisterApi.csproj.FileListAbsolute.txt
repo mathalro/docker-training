@@ -1,0 +1,14 @@
+C:\Users\mathe\Projects\Docker\RegisterApi\bin\Debug\netcoreapp2.2\RegisterApi.deps.json
+C:\Users\mathe\Projects\Docker\RegisterApi\bin\Debug\netcoreapp2.2\RegisterApi.runtimeconfig.json
+C:\Users\mathe\Projects\Docker\RegisterApi\bin\Debug\netcoreapp2.2\RegisterApi.runtimeconfig.dev.json
+C:\Users\mathe\Projects\Docker\RegisterApi\bin\Debug\netcoreapp2.2\RegisterApi.dll
+C:\Users\mathe\Projects\Docker\RegisterApi\bin\Debug\netcoreapp2.2\RegisterApi.pdb
+C:\Users\mathe\Projects\Docker\RegisterApi\obj\Debug\netcoreapp2.2\RegisterApi.csprojAssemblyReference.cache
+C:\Users\mathe\Projects\Docker\RegisterApi\obj\Debug\netcoreapp2.2\RegisterApi.csproj.CoreCompileInputs.cache
+C:\Users\mathe\Projects\Docker\RegisterApi\obj\Debug\netcoreapp2.2\RegisterApi.RazorAssemblyInfo.cache
+C:\Users\mathe\Projects\Docker\RegisterApi\obj\Debug\netcoreapp2.2\RegisterApi.RazorAssemblyInfo.cs
+C:\Users\mathe\Projects\Docker\RegisterApi\obj\Debug\netcoreapp2.2\RegisterApi.AssemblyInfoInputs.cache
+C:\Users\mathe\Projects\Docker\RegisterApi\obj\Debug\netcoreapp2.2\RegisterApi.AssemblyInfo.cs
+C:\Users\mathe\Projects\Docker\RegisterApi\obj\Debug\netcoreapp2.2\RegisterApi.RazorTargetAssemblyInfo.cache
+C:\Users\mathe\Projects\Docker\RegisterApi\obj\Debug\netcoreapp2.2\RegisterApi.dll
+C:\Users\mathe\Projects\Docker\RegisterApi\obj\Debug\netcoreapp2.2\RegisterApi.pdb
