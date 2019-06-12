@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2.300-alpine3.9 AS build-env
 
 WORKDIR /usr/app/src
-COPY ./Startup.cs ./Program.cs ./RegisterApi.csproj ./Controllers ./
+COPY ./Startup.cs ./Program.cs ./RegisterApi.csproj ./Controllers ./Models ./Services ./
 
 RUN dotnet publish -o release --configuration Release
 
