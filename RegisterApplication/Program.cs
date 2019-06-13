@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Net;
 using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace RegisterApplication
@@ -25,11 +26,14 @@ namespace RegisterApplication
 
                 var person = new Dictionary<string, string> 
                 {
-                    { args[0], args[1] }
+                    { "first-name", "\""+args[0]+"\"" },
+                    { "last-name", "\""+args[1]+"\"" }
                 };
 
-                var content = new FormUrlEncodedContent(person);
-                var response = await client.PostAsync(" http://localhost:5000/api/register", content);
+                var content = new StringContent(person.ToString(), Encoding.UTF8, "application/json");
+                var response = await client.PostAsync("http://localhost:80/api/register", content);
+
+                Console.WriteLine(response.ToString());
             }
             else 
             {
