@@ -14,15 +14,18 @@ namespace RegisterApi.Services
                 cnn.Open();
 
                 var commandStr = "IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='Customers' and xtype='U') CREATE TABLE Customers(First_Name varchar(20), Second_Name varchar(20))";
-                using (SqlCommand command = new SqlCommand(commandStr, cnn))
-                command.ExecuteNonQuery();
+                using (SqlCommand command = new SqlCommand(commandStr, cnn)) 
+                {
+                    command.ExecuteNonQuery();
+                }
                 
                 commandStr = $"INSERT INTO Customers (First_Name, Second_Name) VALUES('{person.FirstName}', '{person.LastName}')";
-                using (SqlCommand command = new SqlCommand(commandStr, cnn))
-                command.ExecuteNonQuery();
+                using (SqlCommand command = new SqlCommand(commandStr, cnn)) 
+                {
+                    command.ExecuteNonQuery();
+                }
 
                 cnn.Close();
-
                 return "Register created succesfully";
             }
             catch (System.Exception ex) {

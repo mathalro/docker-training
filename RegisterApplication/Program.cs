@@ -24,7 +24,7 @@ namespace RegisterApplication
             {
                 HttpClient client = new HttpClient();
 
-                var person = new Dictionary<string, string> 
+                var person = new Dictionary<string, string>
                 {
                     { "first-name", "\""+args[0]+"\"" },
                     { "last-name", "\""+args[1]+"\"" }
