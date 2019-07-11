@@ -21,9 +21,9 @@ namespace RegisterApi.Controllers
         }
 
         [HttpGet]
-        public ActionResult<string> Get() 
+        public ActionResult<Person[]> Get() 
         {
-            return "value";
+            return _register.GetAll();
         }
 
         [HttpPost]
