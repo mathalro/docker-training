@@ -9,7 +9,7 @@ namespace RegisterApi.Services
         {
             try
             {
-                var connectionString = @"Initial Catalog=master;Data Source=192.168.195.161,1433;User ID=sa;Password=yourStrong(!)Password";
+                var connectionString = @"Initial Catalog=master;Data Source=mssql;User ID=sa;Password=yourStrong(!)Password";
                 var cnn = new SqlConnection(connectionString);
                 cnn.Open();
 
